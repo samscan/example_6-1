@@ -167,7 +167,7 @@ static void userInterfaceDisplayUpdate()
             displayStringWrite( "ND" );
         }
 
-        displayCharPositionWrite ( 6,0 );
+        displayCharPositionWrite ( 6,1 );
         
         if ( sirenStateRead() ) {
             displayStringWrite( "ON " );
